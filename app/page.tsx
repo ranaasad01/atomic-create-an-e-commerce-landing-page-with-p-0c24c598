@@ -351,7 +351,7 @@ export default function HomePage() {
             {...(shouldReduceMotion ? {} : { initial: "hidden", animate: "visible" })}
           >
             <motion.div variants={fadeInUp} className="flex items-center gap-2 mb-6">
-              <span className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1.5 rounded-full">
+              <span className="inline-flex items-center gap-1.5 bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1.5 rounded-full" style={{ color: "#eeeae7", backgroundColor: "#ffedd5" }}>
                 <Sparkles className="w-3.5 h-3.5" />
                 New Season Collection
               </span>
