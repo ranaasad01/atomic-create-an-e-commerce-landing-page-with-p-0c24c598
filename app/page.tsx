@@ -25,7 +25,7 @@ const products = [
     originalPrice: 349,
     rating: 4.8,
     reviewCount: 2341,
-    image: "https://m.media-amazon.com/images/I/71YM2N5whtL.jpg",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/0c24c598-1ae8-46f7-b6a4-1c6870a1563e/0da5acd20340497cbdd6938680205b89.png",
     badge: "Best Seller",
     isSale: true,
   },
@@ -569,6 +569,7 @@ export default function HomePage() {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white font-semibold px-8 py-3.5 rounded-2xl transition-colors duration-200"
+            style={{ fontSize: "22px" }}
             >
               View All Products
               <ArrowRight className="w-4 h-4" />
