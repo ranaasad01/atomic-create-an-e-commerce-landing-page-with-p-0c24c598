@@ -37,7 +37,7 @@ const products = [
     originalPrice: undefined,
     rating: 4.9,
     reviewCount: 876,
-    image: "https://i.etsystatic.com/31117849/r/il/07887c/3590162831/il_570xN.3590162831_mr5g.jpg",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/0c24c598-1ae8-46f7-b6a4-1c6870a1563e/a3b68ee755104c92845824f1e69af8cb.png",
     badge: "New",
     isNew: true,
   },
@@ -589,7 +589,7 @@ export default function HomePage() {
             <motion.p variants={fadeInUp} className="text-sm font-semibold text-orange-500 uppercase tracking-widest mb-3">
               Shop by Category
             </motion.p>
-            <motion.h2 variants={fadeInUp} className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
+            <motion.h2 variants={fadeInUp} className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4" style={{ fontSize: "30px" }}>
               Find Your Style
             </motion.h2>
             <motion.p variants={fadeInUp} className="text-gray-500 max-w-xl mx-auto text-lg">
