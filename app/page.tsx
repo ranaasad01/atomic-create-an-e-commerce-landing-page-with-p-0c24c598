@@ -61,7 +61,7 @@ const products = [
     originalPrice: undefined,
     rating: 4.6,
     reviewCount: 3102,
-    image: "https://m.media-amazon.com/images/I/810kOfjKPgL._AC_UF1000,1000_QL80_.jpg",
+    image: "https://titoaistorageaccount.blob.core.windows.net/titoai-storage/assets/0c24c598-1ae8-46f7-b6a4-1c6870a1563e/4b3408a542bf431f983244caadecb15d.png",
     badge: "Top Rated",
   },
   {
